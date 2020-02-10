@@ -47,7 +47,7 @@ require("./config/passport")(passport);
 // Routes
 app.get("/ping", (req, res) => res.sendStatus(200));
 app.use("/api/v1/users", users);
-app.use("/api/v1/games", games);
+// app.use("/api/v1/games", games);
 
 app.use("*", (req, res) =>
  res.sendStatus(404)

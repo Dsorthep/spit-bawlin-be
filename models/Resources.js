@@ -5,10 +5,6 @@ const ResourcesSchema = new Schema({
     title: {
         type: String,
     },
-    date: {
-        type: Date, 
-        default: Date.now
-    },
     url: {
         type: String,
         required: true
